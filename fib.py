@@ -5,7 +5,7 @@ def single_fib(n:int) -> int:
 
 def print_fib_seq(n:int) -> None:
     prev1: int = 1
-    prev2: int = 0 
+    prev2: int = 0
     for i in range(0, n+1):
         if (i == 0):
             print(i, end=" ")
@@ -16,12 +16,12 @@ def print_fib_seq(n:int) -> None:
             print(fib, end=" ")
             prev1, prev2 = fib, prev1
     print("\n")
-    
+
 
 def print_fib_seq_list(n:int) -> None:
     res = []
     prev1: int = 1
-    prev2: int = 0 
+    prev2: int = 0
     for i in range(0, n+1):
         if (i == 0):
             res.append(i)
@@ -39,3 +39,5 @@ if __name__ == "__main__":
     print_fib_seq(7)
     print(single_fib(7))
     print_fib_seq_list(7)
+
+# What a cool Fib Sequence! - Mickey
